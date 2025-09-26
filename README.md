@@ -6,8 +6,8 @@ It validates user IDs, retrieves user details only when the age is greater than 
 
 Usage:
 
-docker compose build
-docker compose up -d
+docker compose build <br>
+docker compose up -d <br>
 curl http://localhost:3333/users/64f1a0b1234567890abc0001 (terminal) or http://localhost:3333/users/64f1a0b1234567890abc0001 (webbrowser)
 
 

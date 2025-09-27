@@ -31,7 +31,7 @@ app.get("/users/:id", async (req, res) => {
 
     // Return user if valid
     res.json(user);
-  }catch (error) {
+  } catch (error) {
     // Handle unexpected errors
     res.status(500).json({ error: "Server error" });
   }

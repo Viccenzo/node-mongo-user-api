@@ -1,7 +1,7 @@
 # Node.js + MongoDB User API
 
 Following the assignment guidelines, the rationale was to build a simple and easy-to-understand codebase, fully containerized with Docker for quick setup.  
-The solution was designed as a plug-and-play microservice that can be reused with other databases by simply changing the host configuration in the `.env` file.  
+The solution was designed as a plug-and-play microservice that can be reused with other databases by simply changing the host configuration in the `docker-compose.yaml` file.  
 It validates user IDs, retrieves user details only when the age is greater than 21, and returns a unified 404 response if the user is not found or under the age limit.
 
 Usage:
